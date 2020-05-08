@@ -10,6 +10,8 @@ import { LoginComponent } from './component/login/login.component';
 import { RegisterComponent } from './component/register/register.component';
 import { ProfileComponent } from './component/profile/profile.component';
 import { HomeComponent } from './component/home/home.component';
+import { FichaComponent } from './component/profile/ficha/ficha.component';
+import { CalComponent } from './component/profile/cal/cal.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { HomeComponent } from './component/home/home.component';
     LoginComponent,
     RegisterComponent,
     ProfileComponent,
-    HomeComponent
+    HomeComponent,
+    FichaComponent,
+    CalComponent
   ],
   imports: [
     routing,
