@@ -1,0 +1,42 @@
+/*
+<aside class="ficha">
+	<div class="ficha-img">FOTO</div>
+	<ul class="ficha-info">
+*/
+
+.ficha{
+	width: 200px;
+	height: 300px;
+	border: 1px solid black;
+	border-radius: 10px;
+	background: white;
+
+}
+
+.ficha-img{
+	width: 180px;
+	height: 120px;
+	background: black;
+	color: white;
+	margin: 0px auto;
+	margin-top: 10px;
+}
+
+.ficha-info{
+	list-style: none;
+	padding-left: 15px;
+	padding-inline-start: 0px;
+
+}
+
+.ficha-info li{
+	margin-bottom: 10px;
+	margin-top:10px;
+	text-align: center;
+	border-bottom: 1px solid blue; 
+}
+
+li:first-child{
+	padding-top: 10px;
+	border-top: 1px solid blue;
+}
