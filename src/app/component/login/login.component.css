@@ -1,0 +1,80 @@
+
+.container{
+	background: white;
+	width: 40%;
+	height: 350px;
+	margin: 0px auto;
+	margin-top: 120px;
+	border: 1px solid #479bb7;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px 10px rgba(71, 155, 183, 0.6);
+
+}
+
+.subContainer{
+	width: 60%;
+	height: 50px;
+	margin: 0px auto;
+	margin-top: 60px;
+}
+
+.subContainer h2{
+	font-size: 35px;
+	text-align: center;
+	margin: 0px auto;
+	color: #479bb7;
+	margin-bottom: 40px;
+}
+
+#login label{
+	color: #479bb7;
+}
+
+#login input{
+	width: 50%;
+	margin: 0px auto;
+	border-bottom: 1px solid #479bb7;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	outline: none;
+	color: blue;
+	text-align: center;
+
+}
+
+#login input[name="userName"]{
+	margin-left: 30px;
+	margin-bottom: 15px;
+}
+
+#login input[name="password"]{
+	margin-left: 10px;
+	margin-bottom: 15px;
+}
+
+#login input[type="submit"]{
+	height: 30px;
+	margin-top: 20px;
+	border-radius: 5px;
+	margin-left: 70px;
+	background: #479bb7;
+	color: white;
+	cursor: pointer;
+	transition: 300ms;
+
+}
+
+#login{
+	margin: 0px auto;
+	width: 90%;
+}
+
+.datos{
+	transition: 300ms;
+}
+
+.datos:focus{
+	box-shadow: 0 0 10px rgba(71, 155, 183, 0.6);
+}
+
