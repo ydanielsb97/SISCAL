@@ -1,0 +1,28 @@
+/*
+<div class="cal">
+	<h3 class="cal-titulo">Calificaciones</h3>
+	<ul class="cal-lista">
+*/
+
+.cal{
+	width: 600px;
+	height: 100px;
+	background: white;
+	border-radius: 5px;
+}
+
+.cal-titulo{
+	text-align: center;
+	border-bottom: 1px solid blue;
+	font-size: 25px;
+}
+
+.cal-lista{
+	list-style: none;
+}
+
+.cal-lista li{
+	display: inline;
+	margin-right: 45px;
+
+}

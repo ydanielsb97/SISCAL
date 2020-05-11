@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cal.component.css']
 })
 export class CalComponent implements OnInit {
+	public more: boolean = false;
 
   constructor() { }
 

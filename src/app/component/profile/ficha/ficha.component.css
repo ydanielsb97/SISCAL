@@ -7,10 +7,10 @@
 .ficha{
 	width: 200px;
 	height: 300px;
-	border: 1px solid black;
+	color: #0081cc;
+	border: 1px solid #0081cc;
 	border-radius: 10px;
-	background: white;
-
+	background-color: white;
 }
 
 .ficha-img{
@@ -20,6 +20,7 @@
 	color: white;
 	margin: 0px auto;
 	margin-top: 10px;
+	border: 1px solid #0081cc;
 }
 
 .ficha-info{
@@ -33,10 +34,10 @@
 	margin-bottom: 10px;
 	margin-top:10px;
 	text-align: center;
-	border-bottom: 1px solid blue; 
+	border-bottom: 1px solid #0081cc; 
 }
 
 li:first-child{
 	padding-top: 10px;
-	border-top: 1px solid blue;
+	border-top: 1px solid #0081cc;
 }

@@ -12,6 +12,8 @@ import { ProfileComponent } from './component/profile/profile.component';
 import { HomeComponent } from './component/home/home.component';
 import { FichaComponent } from './component/profile/ficha/ficha.component';
 import { CalComponent } from './component/profile/cal/cal.component';
+import { ProfesoresComponent } from './component/profile/profesores/profesores.component';
+import { NoticiasComponent } from './component/profile/noticias/noticias.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { CalComponent } from './component/profile/cal/cal.component';
     ProfileComponent,
     HomeComponent,
     FichaComponent,
-    CalComponent
+    CalComponent,
+    ProfesoresComponent,
+    NoticiasComponent
   ],
   imports: [
     routing,
